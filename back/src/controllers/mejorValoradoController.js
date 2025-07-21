@@ -1,4 +1,4 @@
-import  MejorValorado from "../models/MejorValorado";
+import  MejorValorado from "../models/MejorValorado.js";
 
 export const votarProductos = async (req, res) => {
     const { productoId } = req.params;
