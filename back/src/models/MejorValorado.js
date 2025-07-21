@@ -22,6 +22,8 @@ const MejorValorado = sequelize.define('MejorValorado', {
 });
 
 export default MejorValorado;
+
+
 /*node:internal/modules/esm/resolve:259
     throw new ERR_UNSUPPORTED_DIR_IMPORT(path, fileURLToPath(base), String(resolved));
           ^
