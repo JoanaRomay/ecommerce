@@ -8,6 +8,7 @@ import Cliente from './Cliente.js';
 import CarritoXProducto from './CarritoXProducto.js';
 import Mensaje from './Mensaje.js';  
 import Variante from './Variante.js';
+import MejorValorado from './MejorValorado.js';
 
 // Relaciones Cliente - Carrito y Orden
 Cliente.hasOne(Carrito, { foreignKey: 'idCliente' });
@@ -60,5 +61,6 @@ export {
   DetalleOrden,
   CarritoXProducto,
     Mensaje,
-    Variante
+    Variante, 
+    MejorValorado
 };

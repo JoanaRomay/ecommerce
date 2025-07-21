@@ -22,7 +22,7 @@ const CuponDescuento = sequelize.define('CuponDescuento', {
   },
   activo: {
     type: DataTypes.BOOLEAN,
-    allowNull: false,
+    allowNull: false, 
     defaultValue: true
   }
 });

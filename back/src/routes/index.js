@@ -10,6 +10,7 @@ import carritoProductoRoutes from './carritoXProducto.routes.js';
 import administradorRoutes from './administrador.routes.js'
 import cuponDescuento from './cuponDescuento.routes.js'
 import variantesRoutes from './variante.route.js'
+import mejorValoradoRoutes from './mejorValorado.routes.js'
 
 const router = Router();
 
@@ -24,5 +25,5 @@ router.use('/carritosproductos', carritoProductoRoutes);
 router.use('/administradores', administradorRoutes);
 router.use('/cuponesDescuentos', cuponDescuento);
 router.use('/',variantesRoutes)
-
+router.use('/', mejorValoradoRoutes)
 export default router;
